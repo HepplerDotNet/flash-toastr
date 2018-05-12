@@ -73,7 +73,7 @@ public function destroy()
 With this messages flashed to the session, you may now display it in your view(s). 
 
 ```html
-@include('flash::message')
+@include('flash-toastr::message')
 ```
 
 This will include the message.blade.php in to your view.
