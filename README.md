@@ -1,3 +1,6 @@
+[![Latest Stable Version](https://poser.pugx.org/hepplerdotnet/flash-toastr/v/stable)](https://packagist.org/packages/hepplerdotnet/flashtoastr)
+[![License](https://poser.pugx.org/hepplerdotnet/flash-toastr/license)](https://packagist.org/packages/hepplerdotnet/flash-toastr)
+
 # Flash Toastr 
 Flash Laravel Session Messages to Toastr.js
 
