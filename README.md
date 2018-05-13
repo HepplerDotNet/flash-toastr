@@ -73,6 +73,24 @@ public function destroy()
 }
 ```
 
+You can even chain them to flash multiple messages at once.
+
+```php
+/**
+ * Destroy the user's session (logout).
+ *
+ * @return Response
+ */
+public function destroy()
+{
+    Auth::logout();
+
+    flash()->success('Logout successfull','You have been logged out.')
+    ->warning('Close Browser','You should close this Browser window now');
+
+    return home();
+}
+```
 
 With this messages flashed to the session, you may now display it in your view(s). 
 
