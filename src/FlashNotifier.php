@@ -14,7 +14,7 @@ class FlashNotifier
     public $messages;
 
     /**
-     * Create a new flashr instance.
+     * Create a new FlashNotifier instance.
      *
      */
     public function __construct()
