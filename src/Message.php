@@ -70,7 +70,7 @@ class Message implements \ArrayAccess
      */
     public function offsetGet($offset)
     {
-        return $this->$offset ?? null;
+        return isset($this->$offset) ? $this->$offset : null;
     }
 
     /**
