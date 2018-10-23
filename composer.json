@@ -2,7 +2,7 @@
     "name": "hepplerdotnet/flash-toastr",
     "description": "Easy toastr.js flash notifications",
     "license": "MIT",
-    "version": "5.6.0",
+    "version": "5.6.1",
     "authors": [
         {
             "name": "Patrick Heppler",
